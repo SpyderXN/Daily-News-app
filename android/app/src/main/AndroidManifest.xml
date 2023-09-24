@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     
     <application
-        android:label="flutter_news"
+        android:label="Daily News"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
