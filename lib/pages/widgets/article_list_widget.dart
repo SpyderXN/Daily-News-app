@@ -39,27 +39,26 @@ class ArticleItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Card(
-        elevation: 2,
-        child: Row(
-          children: [
-            Hero(
-                tag: Key(articles.title.toString()),
-                child: ArticleImageWidget(image: articles.urlToImage)),
-            const SizedBox(
-              width: 20,
-            ),
-            Expanded(
-                child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Text(articles.title, style: const TextStyle(fontWeight: FontWeight.bold), maxLines: 2,),
-                10.heightBox,
-              ],
-            ))
-          ],
+      padding: const EdgeInsets.all(4.0),
+      child: Expanded(
+        child: Card(
+          elevation: 4,
+          child: Column(
+            children: [
+              Card(
+                shape: const RoundedRectangleBorder(),
+                child: Hero(
+                    tag: Key(articles.title.toString()),
+                    child: ArticleImageWidget(image: articles.urlToImage)),
+              ),
+              Text(
+                articles.title,
+                style:
+                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                maxLines: 4,
+              ).p8(),
+            ],
+          ),
         ),
       ),
     );

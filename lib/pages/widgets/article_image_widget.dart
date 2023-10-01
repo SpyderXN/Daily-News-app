@@ -8,14 +8,13 @@ class ArticleImageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        width: 80,
-        height: 80,
-        child: Image.network(
-          image,
-          errorBuilder: (context, error, stackTrace) {
-            return const Icon(Icons.image_not_supported);
-          },
-          fit: BoxFit.fitHeight,
-        ));
+      child: Image.network(
+        image,
+        errorBuilder: (context, error, stackTrace) {
+          return const Icon(Icons.image_not_supported);
+        },
+        fit: BoxFit.fill,
+      ),
+    );
   }
 }

@@ -6,8 +6,21 @@ class NewsHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: ["Daily News".text.xl5.bold.make()]).py16();
+    return const Column(
+        // crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Row(
+            children: [
+              Text(
+                "Daily News",
+                textScaleFactor: 3,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              SizedBox(width: 15,),
+              Text("v1.5")
+            ],
+          )
+        ]).py16();
   }
 }

@@ -1,0 +1,32 @@
+{
+    "category" : [
+        {
+            "name" : "Business",
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Business_Analyst_%28BA%29.jpg/436px-Business_Analyst_%28BA%29.jpg"
+        },
+        {
+            "name" : "Entertainment",
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0nPqlWS2MODUjqLMlbsieZAMD0yi5KzADA&usqp=CAU"
+        },
+        {
+            "name" : "General",
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnlELawDcSpLnvbskR_3sMoAT46X7QGCc5Qw&usqp=CAU"
+        },
+        {
+            "name" : "Health",
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMEHAvSKfiY1hQ0WpAdG-zqkXIjStbOiH_Qg&usqp=CAU"
+        },
+        {
+            "name" : "Science",
+            "image" : "https://www.nasa.gov/sites/default/files/styles/2x1_cardfeed/public/thumbnails/image/hubble_arp107_potw2338a.jpg?itok=F8evNu6U"
+        },
+        {
+            "name" : "Sports",
+            "image" : "https://www.nkvidyabhavan.org/images/Rules/sports.jpg"
+        },
+        {
+            "name" : "Technology",
+            "image" : "https://www.macquarie.com/au/en/perspectives/technology/_jcr_content/root/general_hero_copy/mobile-image.coreimg.jpeg/1671162255476/hero-technology-hub.jpeg"
+        }
+    ]
+}
